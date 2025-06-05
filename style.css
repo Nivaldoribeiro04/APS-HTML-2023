@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --main-blue: #394dd1;
+    --main-font: Montserrat;
+  }
+
+* {
+    font-family: var(--main-font)
+}
+
+.flex {
+    display: flex;
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    background-color:  var(--main-blue);
+}
+
+.search-icon, .review-icon, .nav-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.search-btn {
+    background-color: white!important;
+}
+
+.card {
+    margin: 30px;
+    box-shadow: 10px 5px 5px rgba(211, 211, 211, 0.664);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 300px;
+}
+
+.menu-gen {
+    background-color: rgb(36, 36, 36);
+  
+}
+
+.content {
+    background-color: #FFFFFF;
+    margin: 20px;
+}
+
+ul {
+    color: white!important;
+    width: 100%;
+    text-align: center;
+    padding: 0!important;
+}
+
+li {
+    list-style-type: none;
+}
+
+.lista-gen {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a, a.btn, .lista-gen a, button {
+    text-decoration: none!important;
+    color: white!important;
+}
+
+.navbar-nav {
+    justify-content: space-between;
+}
+  
+.desc-content {
+    margin: 0 8em 0 8em;
+}
+
+.main-desc {
+    justify-content: space-around;
+    margin-bottom: 1.5em;
+}
+
+.main-img {
+    width: 30%;
+}
+
+.main-txt {
+    width: 70%;
+    margin: 0 2rem 0 2rem;
+}
+
+.main-txt h1 {
+    margin-bottom: 1.5rem;
+}
+
+.main-txt-two {
+    margin-left: 2rem;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.main-txt-one .btn {
+    font-size: 2em;
+    font-weight: 600;
+    border-radius: 1.3rem;
+    background-color: var(--main-blue)!important;
+}
+
+.card-body .btn, .btn-calcular {
+    background-color: var(--main-blue)!important;
+}
+
+.preco {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.review-icon {
+    margin-right: .5rem;
+}
+
+.nav-calcular, .nav-calcular .container-fluid {
+    padding: 0!important;
+}
+
+.review {
+    background-color: #bdcbffa1;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .5em;
+}
+
+footer {
+    text-align: center;
+    background-color: #bdcbffa1;
+    padding: 2em;
+}
+
+.footer-list li {
+    color: black!important;
+}
+
+@media (max-width: 576px) {
+    .lista-gen, .flex {
+        display: block
+    }
+
+    .desc-content {
+        margin: 0 1.5em 0 1.5em;
+    }
+
+    .main-img, .main-txt {
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-txt h1 {
+        margin: .5em 0 0 0;
+    }
+
+    .main-txt-one p, .main-txt-two, .card {
+        margin: 0;
+    }
+}
+
+#mainLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.B3{
+    /*
+    right: 50%;
+    position: absolute;
+    top: 10em;*/
+
+    position: relative;
+    top: 4em;
+    text-align: center;
+}
+
+.B3 h3 {
+    font-weight: 600;
+}
+
+.loge{
+    position: relative;
+    background-color: white;
+    top: 5em;
+    align-items: center;
+    /*left: 35%;*/
+    width: 20em;
+    height: 20em;
+    border-radius: 12%;
+}
+
+.date{
+    margin-left: 2em;
+    position: absolute;
+    top: 2em;
+}
+
+.R2D2{
+    margin-top: 3.6em;
+    background-color: #BDCBFF;
+    width: 16em;
+    height: 2em;
+    margin-left: 8%;
+    border-radius: 10px;
+    border: 10px;
+}
+
+body#bodyLogin {
+    background-image: linear-gradient(#597DFF,#6ABCEB,#BDCBFF);
+    width: 100%;
+    height: 100%;
+}
+
+.six{
+    position: relative;
+    top: 1em;
+    margin-left: 2em;
+}
+
+.password{
+    margin-top: 1em;
+    background-color: #BDCBFF;
+    width: 16em;
+    height: 2em;
+    margin-left: 8%;
+    border-radius: 10px;
+    border: 10px;
+}
+
+.IconEyeClose{
+    position: absolute;
+    margin-top: 6%;
+    right: 4em;
+    border-radius: 10px;
+    background-color: #BDCBFF;
+    border: 10px;
+}   
+    
+.rad{
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.entrar{
+    position: absolute;
+    background-color: #00008B;
+    border-radius: 10px;
+    border: 10px;
+    width: 10em;
+    height: 3em;
+    top: 12.5em;
+    left: 23%;
+}
+
+.esqueceu{
+    position: absolute;
+    color: darkcyan;
+    left: 26%;
+    margin-top: 1%;   
+}
+
+.kiss{
+    height: 2em;
+}
+
+.se{
+    position: absolute;
+    right: 8em;
+    top: 17em;
+}
+
+.fudeu{
+    position: absolute;
+    left: 12.2em;
+    top: 17em;
+}
+
+.ssa{
+    position: absolute;
+    top: 98em;
+}
+
+.b1 {
+    background-color: #5fa5e2;
+}
+
+.caixaBox {
+    position: relative;
+    background-color: white;
+    top: 16em;
+    align-items: center;
+    left: 40%;
+    width: 22em;
+    height: 17em;
+    border-radius: 12%;
+}
+
+.cadastroText{
+    position: relative;
+    top: -68px;
+    left: 45%;
+}
+
+.email {
+    position: relative;
+    top: -50px;
+    left: 43%;
+}
+
+.info1 {
+    margin-top: 3.6em;
+    background-color: #BDCBFF;
+    width: 16em;
+    height: 2em;
+    margin-left: 8%;
+    border-radius: 10px;
+    border: 10px;
+    position: relative;
+    top: -110px;
+    left: 34%;
+}
+
+.user {
+    position: relative;
+    top: -90px;
+    left: 43%;
+}
+
+.info2 {
+    margin-top: 3.6em;
+    background-color: #BDCBFF;
+    width: 16em;
+    height: 2em;
+    margin-left: 8%;
+    border-radius: 10px;
+    border: 10px;
+    position: relative;
+    top: -150px;
+    left: 34%;
+}
+
+.senha {
+    position: relative;
+    top: -130px;
+    left: 43%;
+}
+
+.info3 {
+    margin-top: 3.6em;
+    background-color: #BDCBFF;
+    width: 16em;
+    height: 2em;
+    margin-left: 8%;
+    border-radius: 10px;
+    border: 10px;
+    position: relative;
+    top: -187px;
+    left: 34%;
+}
+
+.avançarCadastroText {
+    position: fixed;
+    color: rgb(28, 45, 199)!important;
+    top: 590px;
+    left: 47%;
+    bottom: 35%;
+    text-decoration: none;
+}
+
+#alert {
+    display: none;
+    top: 15%;
+}
+
+input.entrar {
+    color: white;
+}
+
+.search-card-desktop {
+    width: 10em!important;
+}
+
+.search-card-mobile {
+    width: 90%!important;
+}
